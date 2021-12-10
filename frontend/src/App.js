@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import React, {Component} from 'react';
-import HeadingBannerComponent from "./components/HeadingBannerComponent";
+import InformationComponent from "./components/InformationComponent";
+import FrontComponent from "./components/FrontComponent";
 import './App.css';
-
-
 
 class App extends Component {
     constructor() {
@@ -18,10 +17,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <h1 id="title">Is this centered?</h1>
-                </header>
-                <HeadingBannerComponent/>
+                <FrontComponent/>
+                <InformationComponent/>
             </div>
         );
     }
