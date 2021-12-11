@@ -20,6 +20,7 @@ class App extends Component {
             <div className="App">
                 <FrontComponent/>
                 <InformationComponent/>
+                <ResumeComponent/>
             </div>
         );
     }

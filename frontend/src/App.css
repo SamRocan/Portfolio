@@ -28,7 +28,7 @@ p{
   font-weight: bold;
 }
 #title-box{
-  animation: fadeinUp 2s;
+  animation: fadeinUp 0.5s;
   margin: 0 !important;
   color: lightgray;
 }
@@ -37,11 +37,11 @@ p{
 }
 #info-summary p{
   /*'both' tells the animation to not appear before animating */
-  animation:fadeinSideLeft 2s linear 0.5s both;
+  animation:fadeinSideLeft 0.5s linear 0.5s both;
 
 }
 #portrait-image{
-  animation: fadeinSideRight 2.5s linear ;
+  animation: fadeinSideRight 1s linear ;
 }
 #portrait-image img{
   float: right;
@@ -50,7 +50,7 @@ p{
 #see-more{
   margin-top: 5%;
   margin-bottom: 5%;
-  animation: fadeIn 0.5s linear 2.5s both;
+  animation: fadeIn 0.5s linear 1s both;
   background-color: #7b8189 !important;
   border-radius: 20px 20px;
   color: white;
@@ -128,10 +128,4 @@ p{
 }
 
 /*------*/
-.banner-area{
-  background-color: #282c34;
-  color: white;
-  padding: 0% 10% 10% 10%;
-
-}
 

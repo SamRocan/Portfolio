@@ -1,21 +1,26 @@
 import React, {Component} from 'react';
-import './css/information_style.css';
-
+import './css/resume_style.css';
+import factor from './images/fivefactor.png'
+import restaurant from './images/restaurant.png'
+import architecture from './images/architecture.png'
+import investment from './images/investment.png'
 class ResumeComponent extends Component{
     render() {
         return (
-            <div className="container-fluid p-0 m-0">
+            <div className="container" id="project-container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-12 location">
-                        <img src=""></img>
-                        <div className="department-info">
-                            <h3>Header</h3>
-                            <p>Text</p>
-                            <p>Text</p>
-                            <p>Text</p>
-                            <a href="mailto:sam@icloud.com" className="btn btn-default">Email</a>
-                            <a href="http://google.com" className="btn btn-default">Find Us</a>
-                        </div>
+                    <h1 id="project-header">Projects</h1>
+                    <div className="col-md-6 col-sm-12 project">
+                        <img src={factor} alt="Ok" width="100%" height="100%"></img>
+                    </div>
+                    <div className="col-md-6 col-sm-12 project">
+                        <img src={restaurant} alt="Ok" width="100%" height="100%"></img>
+                    </div>
+                    <div className="col-md-6 col-sm-12 project">
+                        <img src={architecture} alt="Ok" width="100%" height="100%"></img>
+                    </div>
+                    <div className="col-md-6 col-sm-12 project">
+                        <img src={investment} alt="Ok" width="100%" height="100%"></img>
                     </div>
                 </div>
             </div>

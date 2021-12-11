@@ -5,7 +5,7 @@ class InformationComponent extends Component{
     render() {
         return(
         <div class="container" id="information-area">
-            <h1 id="information-header">About  Me</h1>
+            <h1 id="information-header">About Me</h1>
             <div className="tabs">
                 <div className="tab-2">
                     <label htmlFor="tab2-1">Education</label>

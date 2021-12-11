@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import portrait from './IMG_2662.jpg';
+import portrait from './images/IMG_2662.jpg';
 class FrontComponent extends Component {
     render() {
         return(
