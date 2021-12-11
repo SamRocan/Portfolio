@@ -19,13 +19,14 @@ class FrontComponent extends Component {
                                 posuere condimentum volutpat. Vestibulum diam quam,
                                 ullamcorper vel neque vitae, ultrices porttitor lectus.
                                 Maecenas rutrum accumsan lobortis.
+                                <button className="btn btn-lrg" id="see-more">Find Out More</button>
                             </p>
-                            <button className="btn btn-success" id="see-more">See more</button>
                         </div>
                         <div className="col-md-6"  id="portrait-image">
-                            <img src={portrait} width="300px"></img>
+                            <img src={portrait} width="100%"></img>
                         </div>
                     </div>
+                    <button className="btn btn-sml" id="see-more">Find Out More</button>
                 </div>
             </header>
         )
