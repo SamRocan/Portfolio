@@ -37,25 +37,48 @@ p{
   font-size: 60px;
   /*transition: opacity 250ms ease-in, transform 400ms ease-in;*/
   margin: 0 !important;
+  font-weight: bold;
+
 }
 #subtitle{
   font-size: 60px;
   margin: 0 !important;
   color: #7b8189;
+  font-weight: bold;
 }
 #title-box{
-  animation: fadein 2s;
+  animation: fadeinUp 2s;
   margin: 0 !important;
   color: lightgray;
 }
-
-.banner-area{
-  background-color: #282c34;
-  color: white;
-  padding: 0% 10% 10% 10%;
+#info-summary {
+  margin-top: 3%;
+}
+#info-summary p{
+  /*'both' tells the animation to not appear before animating */
+  animation:fadeinSideLeft 2s linear 0.5s both;
 
 }
-@keyframes fadein {
+#portrait-image{
+  animation: fadeinSideRight 2.5s linear ;
+}
+#portrait-image img{
+  float: right;
+}
+#see-more{
+  margin-top: 3%;
+  animation: fadeIn 0.5s linear 2.5s both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinUp {
   from {
     transform: translateY(100%);
     opacity: 0
@@ -65,7 +88,34 @@ p{
     opacity: 1
   }
 }
+@keyframes fadeinSideRight {
+  from {
+    transform: translateX(50%);
+    opacity: 0
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1
+  }
 
+}
+@keyframes fadeinSideLeft {
+  from {
+    transform: translateX(-50%);
+    opacity: 0
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1
+  }
 
+}
 
+/*------*/
+.banner-area{
+  background-color: #282c34;
+  color: white;
+  padding: 0% 10% 10% 10%;
+
+}
 

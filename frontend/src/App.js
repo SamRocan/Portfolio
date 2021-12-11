@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, {Component} from 'react';
 import InformationComponent from "./components/InformationComponent";
 import FrontComponent from "./components/FrontComponent";
+import ResumeComponent from "./components/ResumeComponent";
 import './App.css';
 
 class App extends Component {
