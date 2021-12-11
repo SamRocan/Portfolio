@@ -1,0 +1,31 @@
+#techstack-container{
+    margin-top: 50px;
+}
+#techstack-header{
+    text-align: center;
+    font-weight: bold;
+    color: #7ed1ea;
+    padding-bottom: 10px;
+}
+#stack-items{
+    color: #dde2e2;
+}
+#stack-items h3{
+    text-align: center;
+}
+#stack-items .row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#stack-items .col-sm-3, #stack-items .col-sm-4 {
+
+    text-align: center;
+}
+
+.icon{
+    height: 64px;
+}
+#bs-icon{
+    filter: invert(1);
+    background-color: #d7d3cb;
+}

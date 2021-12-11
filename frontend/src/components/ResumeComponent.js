@@ -11,16 +11,16 @@ class ResumeComponent extends Component{
                 <div className="row">
                     <h1 id="project-header">Projects</h1>
                     <div className="col-md-6 col-sm-12 project">
-                        <img src={factor} alt="Ok" width="100%" height="100%"></img>
+                        <a href="https://twitter-to-five-factor.herokuapp.com/"><img src={factor} alt="Ok" width="100%" height="100%"></img></a>
                     </div>
                     <div className="col-md-6 col-sm-12 project">
-                        <img src={restaurant} alt="Ok" width="100%" height="100%"></img>
+                        <a href="https://github.com/SamRocan/RestaurantWebsite"><img src={restaurant} alt="Ok" width="100%" height="100%"></img></a>
                     </div>
                     <div className="col-md-6 col-sm-12 project">
-                        <img src={architecture} alt="Ok" width="100%" height="100%"></img>
+                        <a href="https://github.com/SamRocan/ArchitectureSite"><img src={architecture} alt="Ok" width="100%" height="100%"></img></a>
                     </div>
                     <div className="col-md-6 col-sm-12 project">
-                        <img src={investment} alt="Ok" width="100%" height="100%"></img>
+                        <a href="https://github.com/SamRocan/investmenthub"><img src={investment} alt="Ok" width="100%" height="100%"></img></a>
                     </div>
                 </div>
             </div>

@@ -19,6 +19,8 @@ p{
   /*transition: opacity 250ms ease-in, transform 400ms ease-in;*/
   margin: 0 !important;
   font-weight: bold;
+  color: #7ed1ea;
+
 
 }
 #subtitle{
@@ -46,6 +48,9 @@ p{
 #portrait-image img{
   float: right;
   max-width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+  border: 3px solid white;
+  border-radius: 3px;
 }
 #see-more{
   margin-top: 5%;

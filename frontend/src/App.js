@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import InformationComponent from "./components/InformationComponent";
 import FrontComponent from "./components/FrontComponent";
 import ResumeComponent from "./components/ResumeComponent";
+import TechStackComponent from "./components/TechStackComponent";
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         return (
             <div className="App">
                 <FrontComponent/>
+                <TechStackComponent/>
                 <InformationComponent/>
                 <ResumeComponent/>
             </div>
