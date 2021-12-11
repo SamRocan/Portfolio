@@ -28,7 +28,7 @@ p{
   font-weight: bold;
 }
 #title-box{
-  animation: fadeinUp 0.5s;
+  animation: fadeinUp 0.5s ease-in-out;
   margin: 0 !important;
   color: lightgray;
 }
@@ -37,11 +37,11 @@ p{
 }
 #info-summary p{
   /*'both' tells the animation to not appear before animating */
-  animation:fadeinSideLeft 0.5s linear 0.5s both;
+  animation:fadeinSideLeft 0.5s ease-in-out 0.5s both;
 
 }
 #portrait-image{
-  animation: fadeinSideRight 1s linear ;
+  animation: fadeinSideRight 1s ease-in-out ;
 }
 #portrait-image img{
   float: right;
@@ -50,14 +50,17 @@ p{
 #see-more{
   margin-top: 5%;
   margin-bottom: 5%;
-  animation: fadeIn 0.5s linear 1s both;
+  animation: fadeIn 0.5s ease-in-out 1s both;
   background-color: #7b8189 !important;
   border-radius: 20px 20px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
   display: block;
-
+  transition: 0.5s;
+}
+#see-more:hover{
+  background-color: #79bdd7 !important;
 }
 .col-md-6{
   margin-top: 3%;
