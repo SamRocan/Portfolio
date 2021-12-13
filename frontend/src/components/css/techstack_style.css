@@ -40,14 +40,19 @@
 .icon-false{
     height: 64px;
 }
+
 .icon-true{
     height: 64px;
     animation: rubberBand 1s;
     animation-fill-mode: both;
+
 }
-.true{
-    animation: rubberBand 1s;
-    animation-fill-mode: both;
+.Test{
+    opacity: 0;
+    transition: 0.5s;
+}
+.icon-true:hover + .Test{
+    opacity: 1;
 }
 
 

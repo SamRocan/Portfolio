@@ -10,6 +10,7 @@ const comp = (name) => {
                 {({ inView, ref, entry }) => (
                     <div ref={ref}>
                         <img className={`icon-${inView}`} src={name.vals}></img>
+                        <p className="Test">{name.name}</p>
                     </div>
                 )}
             </InView>
