@@ -1,11 +1,14 @@
 #techstack-container{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 #techstack-header{
     text-align: center;
     font-weight: bold;
     color: #7ed1ea;
     padding-bottom: 10px;
+}
+.tech-cat{
+    color: #b6dfef;
 }
 #stack-items{
     color: #dde2e2;
@@ -51,6 +54,7 @@
     opacity: 0;
     transition: 0.5s;
 }
+
 .icon-true:hover + .Test{
     opacity: 1;
 }

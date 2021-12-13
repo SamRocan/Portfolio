@@ -15,13 +15,16 @@ class App extends Component {
         }
     }
 
+
+
+
     render() {
         return (
             <div className="App">
                 <FrontComponent/>
+                <InformationComponent/>
                 <ResumeComponent/>
                 <TechStackComponent />
-                <InformationComponent/>
             </div>
         );
     }
