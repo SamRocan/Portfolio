@@ -35,7 +35,7 @@ const TechStackComponent = () => {
                         <TextObserverComponent textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
                         "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
                         "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
-                        "                            eros."}/>s
+                        "                            eros."}/>
 
                     </div>
                     <div className="col-md-6">
