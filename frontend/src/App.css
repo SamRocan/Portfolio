@@ -41,6 +41,10 @@ p{
   animation:fadeinSideLeft 0.5s ease-in-out 0.5s both;
 
 }
+#info-summary a{
+  text-decoration: none;
+  color: #79bdd7;
+}
 #portrait-image{
   animation: fadeinSideRight 1s ease-in-out ;
 }

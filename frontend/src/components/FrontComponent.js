@@ -12,13 +12,7 @@ class FrontComponent extends Component {
                 <div className="container p-0 m-0">
                     <div className="row" id="info-summary">
                         <div className="col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Morbi non libero eget quam feugiat varius et in nunc.
-                                Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                                Suspendisse potenti. Fusce gravida dictum cursus. Maecenas
-                                posuere condimentum volutpat. Vestibulum diam quam,
-                                ullamcorper vel neque vitae, ultrices porttitor lectus.
-                                Maecenas rutrum accumsan lobortis.
+                            <p>I'm a Full Stack Web Developer with a background in Finance and have recently completed a <a href="#">MSc Computer Science</a>
                                 <button className="btn btn-lrg" id="see-more">Find Out More</button>
                             </p>
                         </div>

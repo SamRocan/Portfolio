@@ -7,6 +7,13 @@
     color: #7ed1ea;
     padding-bottom: 10px;
 }
+#aboutme-header{
+    font-weight: bold;
+    color: #7ed1ea;
+}
+#aboutme-info{
+    color: white;
+}
 .tech-cat{
     color: #b6dfef;
 }
