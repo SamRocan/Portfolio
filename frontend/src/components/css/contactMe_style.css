@@ -18,8 +18,12 @@
 i{
     padding: 2%;
 }
+.contact_me_container i{
+    transition: 0.5s;
+}
 .contact_me_container i:hover{
     color: #79bdd7;
+    bottom: 10px;
 }
 .contact-btn{
     display: block;
