@@ -21,8 +21,8 @@ class App extends Component {
         return (
             <div className="App">
                 <FrontComponent/>
-                <InformationComponent/>
                 <ResumeComponent/>
+                <InformationComponent/>
                 <TechStackComponent />
                 <ContactMeComponent />
             </div>

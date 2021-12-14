@@ -1,15 +1,41 @@
 .contact_me_container{
     padding-bottom: 10%;
 }
+.contact_me_container p{
+    color: white;
+    text-align: center;
+}
+.social-media-icons{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    animation: ease-in 1s;
+}
+.social-media-icons a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    padding: 2%;
+}
+.contact_me_container i:hover{
+    color: #79bdd7;
+}
 .contact-btn{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px 20px;
+}
+.contact-btn:hover{
+    background-color: #79bdd7 !important;
 }
 .contact_me_header{
     text-align: center;
-    color: #b6dfef;
+    color: #79bdd7;
 }
 .social-media-icon{
     width: 64px;
