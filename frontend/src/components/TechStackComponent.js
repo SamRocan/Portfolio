@@ -1,6 +1,7 @@
 import React, {Component,useEffect, useRef, useState} from 'react'
 import {useInView} from "react-intersection-observer";
 import ObserverComponent from "./ObserverComponent";
+import TextObserverComponent from "./TextObserverComponent";
 
 import './css/techstack_style.css'
 
@@ -12,17 +13,29 @@ const TechStackComponent = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h1 id="aboutme-header">About Me</h1>
-                        <p id="aboutme-info">
-                            Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.
-                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.
-                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet
-                            eros. <br/><br/> Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi
-                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt
-                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit
-                            amet odio laoreet, eu rutrum magna auctor. <br/><br/>Quisque iaculis eros ac nisl efficitur posuere.
-                            Nunc ipsum sem, varius pellentesque venenatis eu, placerat non felis. Duis pulvinar dolor nec
-                            urna sagittis sollicitudin. Duis eget urna et elit pretium eleifend.
-                        </p>
+                        <TextObserverComponent textContent={"Quisque iaculis eros ac nisl efficitur posuere.\n" +
+                        "                            Nunc ipsum sem, varius pellentesque venenatis eu, placerat non felis. Duis pulvinar dolor nec\n" +
+                        "                            urna sagittis sollicitudin. Duis eget urna et elit pretium eleifend."}/>
+                        <br/>
+                        <TextObserverComponent textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
+                        "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
+                        "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
+                        "                            amet odio laoreet, eu rutrum magna auctor."}/>
+                        <br/>
+                        <TextObserverComponent textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
+                        "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
+                        "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
+                        "                            eros."}/>
+                        <br/>
+                        <TextObserverComponent textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
+                        "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
+                        "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
+                        "                            amet odio laoreet, eu rutrum magna auctor."}/>
+                        <br/>
+                        <TextObserverComponent textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
+                        "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
+                        "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
+                        "                            eros."}/>s
 
                     </div>
                     <div className="col-md-6">
