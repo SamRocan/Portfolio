@@ -10,7 +10,6 @@
 }
 .project-right-true{
     animation: fadeinSideRight 1s;
-
 }
 
 #project-container img{
@@ -26,9 +25,9 @@
 }
 #project-container img:hover{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
     filter: blur(3px);
     -webkit-filter: blur(3px);
-    cursor: pointer;
 }
 #project-header{
     text-align: center;
@@ -38,14 +37,24 @@
     margin: 0 0 30px 0 !important;
     padding: 0 !important;
 }
+.project-title{
+    text-align: center;
+    color: white;
+    text-decoration: none ;
+}
 .project{
     margin-top: 0 !important;
 }
-.project-subheading {
-    margin-top: 1%;
+
+.centered-text{
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    top: 50%;
+    width: 100%;
     text-align: center;
-    color: #d2ddea;
 }
+
 
 @keyframes fadeinSideRight {
     from {
