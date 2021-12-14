@@ -4,6 +4,7 @@ import InformationComponent from "./components/InformationComponent";
 import FrontComponent from "./components/FrontComponent";
 import ResumeComponent from "./components/ResumeComponent";
 import TechStackComponent from "./components/TechStackComponent";
+import ContactMeComponent from "./components/ContactMeComponent";
 import './App.css';
 
 class App extends Component {
@@ -16,8 +17,6 @@ class App extends Component {
     }
 
 
-
-
     render() {
         return (
             <div className="App">
@@ -25,6 +24,7 @@ class App extends Component {
                 <InformationComponent/>
                 <ResumeComponent/>
                 <TechStackComponent />
+                <ContactMeComponent />
             </div>
         );
     }
