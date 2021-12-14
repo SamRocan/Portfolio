@@ -29,11 +29,24 @@
     filter: blur(3px);
     -webkit-filter: blur(3px);
 }
+.Test{
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+    color: white !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+#project-container img:hover + .Test{
+    opacity: 1;
+}
 #project-header{
     text-align: center;
     font-weight: bold;
     /*color: #b0b9c4;*/
-    color: white;
+    color: #7ed1ea;
     margin: 0 0 30px 0 !important;
     padding: 0 !important;
 }
@@ -45,16 +58,6 @@
 .project{
     margin-top: 0 !important;
 }
-
-.centered-text{
-    position: relative;
-    background-color: rgba(0,0,0,0);
-    color: black;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-
 
 @keyframes fadeinSideRight {
     from {

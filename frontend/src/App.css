@@ -80,6 +80,9 @@ p{
 .btn-sml {
   display: none !important;
 }
+.col-md-6{
+  margin-top: 0px !important;
+}
 @media only screen and (max-width: 768px) {
   #portrait-image img{
     float: none;
