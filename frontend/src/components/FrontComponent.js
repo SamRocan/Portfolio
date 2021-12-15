@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from 'react-scroll'
-import portrait from './images/IMG_2662.jpg';
+import portrait from './images/IMG_0511.jpg';
 import {createRef} from "react/cjs/react.production.min";
 class FrontComponent extends Component {
     render() {

@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './css/resume_style.css';
-import factor from './images/fivefactor.png'
-import restaurant from './images/restaurant.png'
-import architecture from './images/architecture.png'
-import investment from './images/investment.png'
+import factor from './images/fivefactor.jpg'
+import restaurant from './images/restaurant.jpg'
+import architecture from './images/architecture.jpg'
+import investment from './images/investment.jpg'
 import ProjectObserverComponent from "./ProjectObserverComponent";
 class ResumeComponent extends Component{
     render() {
