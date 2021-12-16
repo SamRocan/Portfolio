@@ -162,13 +162,14 @@ p{
 }
 #circle-bg-3 {
   position: absolute;
-  top: -15%;
-  left: 50%;
+  top: -20%;
+  left: 0%;
+  display: none;
   background-color: rgba(0,0,0,0);
-  max-height: 500px;
+  max-height: 300px;
   z-index: 0;
   display: none;
-  animation: fadeinSideRight 1.5s ease-in-out 0.9ms both;
+  animation: fadeIn 1.5s ease-in-out 0.9ms both;
 
 }
 @media only screen and (max-width: 772px){
@@ -179,7 +180,6 @@ p{
     display: none;
   }
   #circle-bg-3{
-    /*change to block once i can figure out how to stop the overflow */
-    display: none;
+    display: block;
   }
 }

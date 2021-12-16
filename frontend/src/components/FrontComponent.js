@@ -4,6 +4,7 @@ import portrait from './images/IMG_0511.jpg';
 import {createRef} from "react/cjs/react.production.min";
 import backdrop from './images/backdrop.svg'
 import circle from './images/circle.svg'
+import circleMobile from './images/circle-mobile.svg'
 class FrontComponent extends Component {
     render() {
         return(
@@ -11,7 +12,7 @@ class FrontComponent extends Component {
                 <div>
                     <img id="circle-bg-1" src={circle}></img>
                     <img id="circle-bg-2" src={circle}></img>
-                    <img id="circle-bg-3" src={circle}></img>
+                    <img id="circle-bg-3" src={circleMobile}></img>
                 </div>
                 <p>Hello, I'm</p>
                 <div id="title-box">
