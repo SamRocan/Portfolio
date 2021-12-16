@@ -39,11 +39,12 @@ p{
 #info-summary p{
   /*'both' tells the animation to not appear before animating */
   animation:fadeinSideLeft 0.5s ease-in-out 0.5s both;
-
+  background-color: rgba(0,0,0,0) !important;
 }
 #info-summary a{
   text-decoration: none;
   color: #79bdd7;
+  background-color: rgba(0,0,0,0) !important;
 }
 #portrait-image{
   animation: fadeinSideRight 1s ease-in-out ;
@@ -140,6 +141,44 @@ p{
   }
 
 }
+#circle-bg-1{
+  position: absolute;
+  top: 270px;
+  left: -30%;
+  background-color: rgba(0,0,0,0);
+  max-height: 500px;
+  z-index: 0;
+  animation: fadeinSideLeft 1.5s ease-in-out 0.7ms both;
+}
+#circle-bg-2{
+  position: absolute;
+  top: -300px;
+  right: -50%;
+  background-color: rgba(0,0,0,0);
+  max-height: 500px;
+  z-index: 0;
+  animation: fadeinSideRight 1.5s ease-in-out 0.9ms both;
 
-/*------*/
+}
+#circle-bg-3 {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  background-color: rgba(0,0,0,0);
+  max-height: 500px;
+  z-index: 0;
+  display: none;
+  animation: fadeinSideRight 1.5s ease-in-out 0.9ms both;
 
+}
+@media only screen and (max-width: 772px){
+  #circle-bg-1{
+    display: none;
+  }
+  #circle-bg-2{
+    display: none;
+  }
+  #circle-bg-3{
+    display: block;
+  }
+}
