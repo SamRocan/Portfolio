@@ -179,6 +179,7 @@ p{
     display: none;
   }
   #circle-bg-3{
-    display: block;
+    /*change to block once i can figure out how to stop the overflow */
+    display: none;
   }
 }
