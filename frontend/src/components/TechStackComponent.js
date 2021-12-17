@@ -13,7 +13,7 @@ const TechStackComponent = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h1 id="aboutme-header">About Me</h1>
-                        <TextObserverComponent textContent={"Ni Hao, my name is Sam Clendenan\n" +
+                        <TextObserverComponent textContent={"Hi, my name is Sam Clendenan\n" +
                         "                            I have a passion for designing clean, responsive websites with dynamic backends.\n"}
                                                 fileLocation={"/CV - Sam Clendenan.pdf"} fileName={"CV - Sam Clendenan.pdf"} linkText={"See my CV"}/>
                         <br/>
