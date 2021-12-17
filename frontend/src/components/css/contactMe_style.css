@@ -35,9 +35,13 @@ i{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px 20px;
+    background-color: #198754;
+    color: white;
 }
 .contact-btn:hover{
-    background-color: #79bdd7 !important;
+    background-color: #79bdd7;
+    color: white;
+
 }
 .contact_me_header{
     text-align: center;

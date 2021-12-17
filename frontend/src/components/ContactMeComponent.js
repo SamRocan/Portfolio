@@ -15,7 +15,7 @@ class ContactMeComponent extends Component{
                         <a href="https://github.com/SamRocan"><i className="fab fa-github"></i></a>
                     </div>
                 </div>
-                <a className="btn btn-success contact-btn" href="mailto:samclendenan@icloud.com">Email Me!</a>
+                <a className="btn contact-btn" href="mailto:samclendenan@icloud.com">Email Me!</a>
             </div>
         )
     };
