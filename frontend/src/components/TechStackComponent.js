@@ -14,23 +14,19 @@ const TechStackComponent = () => {
                     <div className="col-md-6">
                         <h1 id="aboutme-header">About Me</h1>
                         <TextObserverComponent textContent={"Ni Hao, my name is Sam Clendenan\n" +
-                        "                            I have a passion for designing responsive websites with dynamic backends.\n"}
+                        "                            I have a passion for designing clean, responsive websites with dynamic backends.\n"}
                                                 fileLocation={"/CV - Sam Clendenan.pdf"} fileName={"CV - Sam Clendenan.pdf"} linkText={"See my CV"}/>
                         <br/>
-                        <TextObserverComponent subheading={"Education"}  textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
-                        "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
-                        "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
-                        "                            amet odio laoreet, eu rutrum magna auctor."}/>
+                        <TextObserverComponent subheading={"Education"}  textContent={"After completing a Bachelors Degree in Finance from Swansea University in 2019, I spent" +
+                        " much of my spare time the following year sharpening my coding abilities, building off the knowledge and interest i had developed from a young age. From this, " +
+                        "I decided to return to education to undertake an MSc Computer Science from Birkbeck University in 2020/21."}/>
                         <br/>
-                        <TextObserverComponent subheading={"Experience"} textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
-                        "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
-                        "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
-                        "                            eros."}/>
+                        <TextObserverComponent subheading={"Experience"} textContent={"I have experience providing web design for a range of businesses with differing needs. From landing pages " +
+                        "for Start ups, to developing fully fitted websites for local businesses."}/>
                         <br/>
-                        <TextObserverComponent subheading={"Design"}textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
-                        "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
-                        "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
-                        "                            amet odio laoreet, eu rutrum magna auctor."}/>
+                        <TextObserverComponent subheading={"Design"}textContent={"I have an extensive history of using a range of design tools. From Adobe Suite programs such as Photoshop," +
+                        "Illustrator and InDesign, to 3D rendering software such as Blender and Vectorworks."}/>
+                        <br/>
 
                     </div>
                     <div className="col-md-6">
