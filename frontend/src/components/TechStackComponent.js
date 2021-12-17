@@ -2,7 +2,7 @@ import React, {Component,useEffect, useRef, useState} from 'react'
 import {useInView} from "react-intersection-observer";
 import ObserverComponent from "./ObserverComponent";
 import TextObserverComponent from "./TextObserverComponent";
-
+import architecture from './images/architecture.jpg'
 import './css/techstack_style.css'
 
 
@@ -13,9 +13,9 @@ const TechStackComponent = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h1 id="aboutme-header">About Me</h1>
-                        <TextObserverComponent textContent={"Quisque iaculis eros ac nisl efficitur posuere.\n" +
-                        "                            Nunc ipsum sem, varius pellentesque venenatis eu, placerat non felis. Duis pulvinar dolor nec\n" +
-                        "                            urna sagittis sollicitudin. Duis eget urna et elit pretium eleifend."}/>
+                        <TextObserverComponent textContent={"Ni Hao, my name is Sam Clendenan\n" +
+                        "                            I have a passion for designing responsive websites with dynamic backends.\n"}
+                                                fileLocation={"/CV - Sam Clendenan.pdf"} fileName={"CV - Sam Clendenan.pdf"} linkText={"See my CV"}/>
                         <br/>
                         <TextObserverComponent subheading={"Education"}  textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
                         "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +

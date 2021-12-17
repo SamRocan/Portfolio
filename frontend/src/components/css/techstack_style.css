@@ -12,6 +12,11 @@
     font-weight: 400;
 
 }
+#techstack-container a {
+    color: #b5b7ce;
+    font-weight: bold;
+
+}
 #techstack-header{
     text-align: center;
     font-weight: bold;
