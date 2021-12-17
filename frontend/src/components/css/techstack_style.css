@@ -1,5 +1,11 @@
 #techstack-container{
     padding-top: 50px;
+    font-family: Pumo,Helvetica,sans-serif !important;
+}
+#techstack-container p {
+    color: #b5b7ce;
+    font-weight: lighter;
+
 }
 #techstack-header{
     text-align: center;
@@ -8,8 +14,8 @@
     padding-bottom: 10px;
 }
 #aboutme-header{
-    font-weight: bold;
-    color: #7ed1ea;
+    color: #90d0e7;
+    font-weight: 550 !important;
 }
 .aboutme-info-true{
     animation: fade-in 1s;

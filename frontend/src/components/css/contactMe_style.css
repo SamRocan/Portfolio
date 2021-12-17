@@ -1,8 +1,10 @@
 .contact_me_container{
     padding-bottom: 10%;
+    font-family: Pumo,Helvetica,sans-serif !important;
 }
 .contact_me_container p{
-    color: white;
+    color: #b5b7ce;
+    font-weight: lighter;
     text-align: center;
 }
 .social-media-icons{
