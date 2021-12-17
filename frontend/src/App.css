@@ -37,6 +37,8 @@ p{
   margin-top: 3%;
 }
 #info-summary p{
+  font-family: Pumo,Helvetica,sans-serif !important;
+  font-weight: lighter;
   /*'both' tells the animation to not appear before animating */
   animation:fadeinSideLeft 0.5s ease-in-out 0.5s both;
   background-color: rgba(0,0,0,0) !important;
