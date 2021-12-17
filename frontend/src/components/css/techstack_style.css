@@ -7,6 +7,11 @@
     font-weight: lighter;
 
 }
+#techstack-container h4 {
+    color: #b1d9e7;
+    font-weight: 400;
+
+}
 #techstack-header{
     text-align: center;
     font-weight: bold;
@@ -17,10 +22,12 @@
     color: #90d0e7;
     font-weight: 550 !important;
 }
+.aboutme-info-false{
+    opacity: 0;
+}
 .aboutme-info-true{
     animation: fade-in 1s;
     animation-fill-mode: both;
-    color: white;
 }
 .tech-cat{
     color: #b6dfef;

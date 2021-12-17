@@ -9,6 +9,7 @@ const comp = (name) => {
         <InView>
             {({ inView, ref, entry }) => (
                 <div ref={ref}>
+                    <h4 className={`aboutme-info-${inView}`}>{name.subheading}</h4>
                     <p className={`aboutme-info-${inView}`}>{name.textContent}</p>
                 </div>
             )}

@@ -17,25 +17,20 @@ const TechStackComponent = () => {
                         "                            Nunc ipsum sem, varius pellentesque venenatis eu, placerat non felis. Duis pulvinar dolor nec\n" +
                         "                            urna sagittis sollicitudin. Duis eget urna et elit pretium eleifend."}/>
                         <br/>
-                        <TextObserverComponent textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
+                        <TextObserverComponent subheading={"Education"}  textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
                         "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
                         "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
                         "                            amet odio laoreet, eu rutrum magna auctor."}/>
                         <br/>
-                        <TextObserverComponent textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
+                        <TextObserverComponent subheading={"Experience"} textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
                         "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
                         "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
                         "                            eros."}/>
                         <br/>
-                        <TextObserverComponent textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
+                        <TextObserverComponent subheading={"Design"}textContent={"Praesent feugiat vel ante pharetra congue. Vivamus efficitur sem enim, ac interdum nisi\n" +
                         "                            maximus non. Maecenas non ultricies neque. Integer lacus erat, posuere et enim non, tincidunt\n" +
                         "                            ullamcorper velit. Mauris egestas diam risus, et bibendum eros pulvinar ut. In tempus orci sit\n" +
                         "                            amet odio laoreet, eu rutrum magna auctor."}/>
-                        <br/>
-                        <TextObserverComponent textContent={"Nam bibendum efficitur felis ac finibus. In sit amet mi in dolor interdum laoreet eu et odio.\n" +
-                        "                            Integer id suscipit neque. Suspendisse erat est, aliquam eu dapibus quis, dignissim id augue.\n" +
-                        "                            Vestibulum in arcu nec nunc viverra ultrices quis vitae erat. Integer vel tempor mi, ac aliquet\n" +
-                        "                            eros."}/>
 
                     </div>
                     <div className="col-md-6">
