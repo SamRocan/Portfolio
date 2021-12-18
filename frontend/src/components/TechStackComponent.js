@@ -52,9 +52,9 @@ const TechStackComponent = () => {
                                 <div className="col-sm-4"><ObserverComponent vals={"https://i.stack.imgur.com/dMXbE.png"} name={"Bootstrap"}/></div>
                                 <div className="col-sm-4"><ObserverComponent vals={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/768px-GraphQL_Logo.svg.png"} name={"GraphQL"}/></div>
                                 <div className="col-sm-4"><ObserverComponent vals={"https://funthon.files.wordpress.com/2017/05/bs.png"} name={"BeautifulSoup4"}/></div>
-                                <div className="col-sm-4"><ObserverComponent vals={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png"} name={"Pandas"}/></div>
                                 <div className="col-sm-4"><ObserverComponent vals={"https://miro.medium.com/max/592/0*zKRz1UgqpOZ4bvuA"} name={"NLTK"}/></div>
                                 <div className="col-sm-4"><ObserverComponent vals={"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"} name={"Git"}/></div>
+                                <div className="col-sm-4"><ObserverComponent vals={"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png"} name={"Pandas"}/></div>
                             </div>
                         </div>
                     </div>

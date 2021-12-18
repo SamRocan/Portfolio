@@ -1,6 +1,10 @@
 *{
   background-color: #272b3a;
 }
+html, body {
+  position:relative;
+  overflow-x:hidden;
+}
 .App-header {
   background-color: #272b3a;
   min-height: 50vh;
@@ -164,13 +168,12 @@ p{
 }
 #circle-bg-3 {
   position: absolute;
-  top: -20%;
-  left: 0%;
+  top: -2%;
+  right:-10vw;
   display: none;
   background-color: rgba(0,0,0,0);
   max-height: 300px;
   z-index: 0;
-  display: none;
   animation: fadeIn 1.5s ease-in-out 0.9ms both;
 
 }
