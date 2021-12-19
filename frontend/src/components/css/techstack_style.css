@@ -13,9 +13,10 @@
 
 }
 #techstack-container a {
-    color: #b5b7ce;
-    font-weight: bold;
-
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #79bdd7;
 }
 #techstack-header{
     text-align: center;
