@@ -22,7 +22,7 @@ class FrontComponent extends Component {
                 <div className="container p-0 m-0">
                     <div className="row" id="info-summary">
                         <div className="col-md-6">
-                            <p>I'm a Full Stack Web Developer with a background in Finance and have recently completed a <a>MSc Computer Science</a></p>
+                            <p>I'm a Full Stack Web Developer with a background in Finance.</p>
                             <Link to="project-container" spy={true} smooth={true}><button className="btn btn-lrg" id="see-more">Find Out More</button></Link>
                         </div>
                         <div className="col-md-6"  id="portrait-image">
