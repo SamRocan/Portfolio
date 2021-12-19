@@ -25,7 +25,7 @@ const TechStackComponent = () => {
                         "for Start ups, to developing fully fitted websites for local businesses."}/>
                         <br/>
                         <TextObserverComponent subheading={"Design"}textContent={"I have an extensive history of using a range of design tools. From Adobe Suite programs such as Photoshop," +
-                        " Illustrator and InDesign, to 3D rendering software such as Blender."}/>
+                        " Illustrator and InDesign, to 3D modeling software such as Blender."}/>
                         <br/>
 
                     </div>
