@@ -154,10 +154,16 @@ p{
 }
 #circle-bg-2{
   position: absolute;
+  top: 5%;
+  right: 5%;
+  max-height: 250px;
+  max-width: 250px;
+  /*
   top: -300px;
-  right: -50%;
+  right: -50%;*/
   background-color: rgba(0,0,0,0);
-  max-height: 500px;
+  /*
+  max-height: 500px;*/
   z-index: 0;
   animation: fadeinSideRight 1.5s ease-in-out 0.9ms both;
 
@@ -178,9 +184,13 @@ p{
     display: none;
   }
   #circle-bg-2{
-    display: none;
+    display: block;
+    top: 5%;
+    right: 5%;
+    max-height: 250px;
+    max-width: 250px;
   }
   #circle-bg-3{
-    display: block;
+    display: none;
   }
 }
