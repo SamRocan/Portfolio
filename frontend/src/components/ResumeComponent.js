@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './css/resume_style.css';
-import factor from './images/fivefactor.jpg'
+import factor from './images/fivefactor2.jpg'
 import restaurant from './images/restaurant.jpg'
 import architecture from './images/architecture.jpg'
 import investment from './images/investment.jpg'
