@@ -17,7 +17,7 @@ class FrontComponent extends Component {
                 <p>Hello, I'm</p>
                 <div id="title-box">
                     <h1 id="title">Sam Clendenan</h1>
-                    <h2 id="subtitle">Django Web Developer</h2>
+                    <h2 id="subtitle">Python Developer</h2>
                 </div>
                 <div className="container p-0 m-0">
                     <div className="row" id="info-summary">
