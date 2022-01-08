@@ -11,7 +11,7 @@ class ResumeComponent extends Component{
             <div className="container" id="project-container">
                 <div className="row">
                     <h1 id="project-header">Projects</h1>
-                    <ProjectObserverComponent websiteLink={"https://twitter-to-five-factor.herokuapp.com/"} imageLink={factor} direction={"left"} title={"Twitter Five Factor"}/>
+                    <ProjectObserverComponent websiteLink={"https://twitter-five-factor.herokuapp.com/"} imageLink={factor} direction={"left"} title={"Twitter Five Factor"}/>
                     <ProjectObserverComponent websiteLink={"https://le-caprice-restau.herokuapp.com/"} imageLink={restaurant} direction={"right"} title={"Le Caprice Restau"}/>
                     <ProjectObserverComponent websiteLink={"https://architecture-site.herokuapp.com/"} imageLink={architecture} direction={"left"}  title={"Architecture Site"}/>
                     <ProjectObserverComponent websiteLink={"https://investmenthub.herokuapp.com/"} imageLink={investment} direction={"right"}  title={"Investment Hub"}/>
