@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from 'react-scroll'
-import portrait from './images/IMG_0511.jpg';
+import portrait from './images/Me.jpg';
 import {createRef} from "react/cjs/react.production.min";
 import backdrop from './images/backdrop.svg'
 import circle from './images/circle.svg'
