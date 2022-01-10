@@ -11,7 +11,9 @@
 .project-right-true{
     animation: fadeinSideRight 1s;
 }
-
+#project-container {
+    padding-top: 100px;
+}
 #project-container img{
     width: 100%;
     height: 300px;
