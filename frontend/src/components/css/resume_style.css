@@ -4,6 +4,9 @@
 .project-right-false{
     opacity: 0;
 }
+.project-center-false{
+    opacity: 0;
+}
 
 .project-left-true{
     animation: fadeinSideLeft 1s;
@@ -11,10 +14,14 @@
 .project-right-true{
     animation: fadeinSideRight 1s;
 }
+.project-center-true{
+    animation: fadeinFromBottom 1s;
+}
 #project-container {
     padding-top: 100px;
 }
-#project-container img{
+
+#project-container .proj-image{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -25,7 +32,34 @@
     border-radius: 3px;
 
 }
-#project-container img:hover{
+#project-container .proj-image-half{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+    border: 3px solid lightgray;
+    border-radius: 3px;
+
+}
+@media screen and (max-width: 768px) {
+    #project-container .proj-image-half{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+        transition: 0.3s;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 7px 29px 0px;
+        border: 3px solid lightgray;
+        border-radius: 3px;
+
+    }
+}
+#project-container .proj-image:hover, #project-container .proj-image-half:hover{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
     filter: blur(3px);
@@ -79,6 +113,17 @@ a{
     }
     to {
         transform: translateX(0);
+        opacity: 1
+    }
+
+}
+@keyframes fadeinFromBottom {
+    from {
+        transform: translateY(30%);
+        opacity: 0
+    }
+    to {
+        transform: translateY(0);
         opacity: 1
     }
 

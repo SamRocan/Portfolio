@@ -4,7 +4,10 @@ import factor from './images/fivefactor2.jpg'
 import restaurant from './images/restaurant.jpg'
 import architecture from './images/architecture.jpg'
 import investment from './images/investment.jpg'
+import api from './images/API.jpg'
 import ProjectObserverComponent from "./ProjectObserverComponent";
+import CenterProjectObserverComponent from "./CenterProjectObserverComponent";
+
 class ResumeComponent extends Component{
     render() {
         return (
@@ -15,6 +18,8 @@ class ResumeComponent extends Component{
                     <ProjectObserverComponent websiteLink={"https://le-caprice-restau.herokuapp.com/"} imageLink={restaurant} direction={"right"} title={"Le Caprice Restau"}/>
                     <ProjectObserverComponent websiteLink={"https://architecture-site.herokuapp.com/"} imageLink={architecture} direction={"left"}  title={"Architecture Site"}/>
                     <ProjectObserverComponent websiteLink={"https://investmenthub.herokuapp.com/"} imageLink={investment} direction={"right"}  title={"Investment Hub"}/>
+                    <CenterProjectObserverComponent websiteLink={"https://top-ten-crypto-api.herokuapp.com/"} imageLink={api} direction={"center"}  title={"Crypto API"}/>
+
                     <br/>
                 </div>
             </div>
